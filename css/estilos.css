@@ -50,6 +50,13 @@ nav ul a:hover {
   color: aliceblue;
 }
 
+
+.title-text {
+  font-family: 'Cousine', monospace;
+  text-align: center;
+}
+
+
 footer {
   background-color: #ffa42c;
   height: 50px;
@@ -88,15 +95,11 @@ footer p {
 
 
 
-/* Estilos de Página productos */
+/* Estilos de página Productos */
 
 .productos.title {
   text-align: center;
   padding: 2em 3em 0;
-}
-
-.title-text {
-  font-family: 'Cousine', monospace;
 }
 
 .productos.gallery {
@@ -143,10 +146,37 @@ footer p {
 
 
 
+/* Estilos de página Sucursales */
 
+.sucursales .title-text {
+  font-size: x-large;
+  padding: 1em;
+}
 
+.sucursales.maps{
+  display: inline-block;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+}
 
+.map1, .map2 {
+  display: inline-block;
+  width: 49%;
+}
 
+.map1{
+  border-right: 2px solid #414143;
+}
+
+.sucursales h3 {
+  font-family: 'Cousine', monospace;
+  padding: 1em;
+}
+
+.sucursales p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 
