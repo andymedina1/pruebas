@@ -1,3 +1,5 @@
+/* Estilos Globales */
+
 * {
   margin: 0;
   padding: 0;
@@ -55,7 +57,7 @@ footer {
   text-align: center;
   padding: 10px;
   position: fixed;
-  top:93%;
+  top: 93%;
   width: 100%;
   border-top: 3px solid #414143;
 }
@@ -83,4 +85,68 @@ footer p {
 .footer-end {
   display: inline-block;
 }
+
+
+
+/* Estilos de Página productos */
+
+.productos.title {
+  text-align: center;
+  padding: 2em 3em 0;
+}
+
+.title-text {
+  font-family: 'Cousine', monospace;
+}
+
+.productos.gallery {
+  display: inline-block;
+  width: 100%;
+  padding: 2em 1em 0;
+  text-align: center;
+}
+
+.gallery-card {
+  text-align: center;
+  display: inline-block;
+  width: 24%;
+  height: 350px;
+  padding: 1em;
+  border: 1px solid #1cc6a5;
+  border-radius: 10px;
+}
+
+.gallery-card:hover {
+  cursor: pointer;
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 70%;
+}
+
+.productos.change-page {
+  text-align: center;
+  height: 80px;
+}
+
+.productos li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  top: 10px;
+}
+
+.productos a {
+  text-decoration: none;
+  color: darkslategrey
+}
+
+
+
+
+
+
+
+
+
 
