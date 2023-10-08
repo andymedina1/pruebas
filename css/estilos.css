@@ -255,3 +255,82 @@ footer p {
 .number4>.com {
   margin: 1em;
 }
+
+
+/* Estilos de página Contacto */
+
+.contacto.title {
+  text-align: center;
+  padding: 2em 3em;
+}
+
+main>form {
+  margin: 0 auto;
+}
+
+form {
+  width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  text-align: start;
+}
+
+input {
+  font-size: x-large;
+}
+
+label {
+  padding-right: 1em;
+}
+
+.submit {
+  position: relative;
+  bottom: 70px;
+  left: 20px;
+  padding: 1em;
+  border: solid 2px #414143;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: bold;
+  background-color:  #fbf8ee;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #ffa42c;
+  color: aliceblue;
+}
+
+.message>textarea {
+  position: relative;
+  top: 10px;
+  font-size: larger;
+}
+
+.name-input {
+  position: relative;
+  left: 30px;
+}
+
+.email-input {
+  width: 50%;
+  position: relative;
+  left: 175px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
