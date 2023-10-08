@@ -180,3 +180,78 @@ footer p {
 
 
 
+/* Estilos de página Clientes */
+
+.clientes.title {
+  text-align: center;
+  padding: 2em 3em;
+}
+
+.comments-box {
+  display: inline-block;
+  width: 100%;
+  height: 400px;
+}
+
+.comments-box>div {
+  height: 50%;
+  text-align: center;
+}
+
+.comment {
+  display: inline-block;
+  width: 30%;
+  height: 200px;
+  border: 3px solid #ffa42c;
+  border-radius: 10px;
+}
+
+.comment .com {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.comment .name {
+  text-align: end;
+  font-family: 'Cousine', monospace;
+  font-weight: bold;
+  padding: 1em;
+}
+
+.comment.number1 {
+  width: 403px;
+  height: 100px;
+  position: relative;
+  bottom: 30px;
+  right: 50px;
+}
+
+.comment.number2 {
+  width: 30%;
+  height: 150px;
+  position: relative;
+  left: 10px;
+}
+
+.comment.number1 .com,
+.comment.number2 .com {
+  padding-top: 5px;
+}
+
+.comment.number3 {
+  width: 403px;
+  height: 120px;
+  position: relative;
+  right: 90px;
+  padding-top: 5px;
+}
+
+.comment.number4 {
+  width: 335px;
+  height: 100px;
+}
+
+.number4>.com {
+  margin: 1em;
+}
