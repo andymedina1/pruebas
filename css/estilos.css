@@ -329,11 +329,17 @@ label {
 }
 
 
+/* Estilos de página Nosotros */
 
+.nosotros.title {
+  text-align: center;
+  padding: 2em 3em;
+}
 
-
-
-
+section {
+  text-align: center;
+  padding: 1em;
+}
 
 
 
