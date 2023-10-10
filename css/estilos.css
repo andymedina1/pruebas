@@ -283,10 +283,9 @@ label {
   padding-right: 1em;
 }
 
-.submit {
+.submit,
+.reset {
   position: relative;
-  bottom: 70px;
-  left: 20px;
   padding: 1em;
   border: solid 2px #414143;
   border-radius: 10px;
@@ -296,7 +295,18 @@ label {
   cursor: pointer;
 }
 
-.submit:hover {
+.submit {
+  bottom: 80px;
+  left: 20px;
+}
+
+.reset {
+  bottom: 70px;
+  left: 570px;
+}
+
+.submit:hover,
+.reset:hover {
   background-color: #ffa42c;
   color: aliceblue;
 }
