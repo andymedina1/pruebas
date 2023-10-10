@@ -94,6 +94,62 @@ footer p {
 }
 
 
+/* Estilos de página index */
+
+.index.title {
+  padding: 2em 3em 0;
+}
+
+.index.image {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  background-image: url(../img/Logo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.index.main-text {
+  display: inline-block;
+}
+
+.index.subtitle {
+  font-family: 'Cousine', monospace;
+  padding: 0.5em 1em;
+  color: #ffa42c;
+}
+
+.index.text {
+  margin: 0 auto;
+  padding: 0 1em;
+  width: 700px;
+  font-family: Tahoma, sans-serif;
+  font-size: x-large;
+  font-weight: lighter;
+}
+
+.index.button {
+  padding: 1em;
+  border: solid 2px #414143;
+  border-radius: 10px;
+  font-size: medium;
+  background-color: #fbf8ee;
+  font-family: 'Cousine', monospace;
+  cursor: pointer;
+}
+
+.index.button:hover {
+  background-color: #ffa42c;
+  color: aliceblue;
+}
+
+.index.button a {
+  text-decoration: none;
+  color: #414143
+}
+
+
+
 
 /* Estilos de página Productos */
 
@@ -153,19 +209,20 @@ footer p {
   padding: 1em;
 }
 
-.sucursales.maps{
+.sucursales.maps {
   display: inline-block;
   height: 400px;
   width: 100%;
   text-align: center;
 }
 
-.map1, .map2 {
+.map1,
+.map2 {
   display: inline-block;
   width: 49%;
 }
 
-.map1{
+.map1 {
   border-right: 2px solid #414143;
 }
 
@@ -291,7 +348,7 @@ label {
   border-radius: 10px;
   font-size: medium;
   font-weight: bold;
-  background-color:  #fbf8ee;
+  background-color: #fbf8ee;
   cursor: pointer;
 }
 
@@ -340,13 +397,3 @@ section {
   text-align: center;
   padding: 1em;
 }
-
-
-
-
-
-
-
-
-
-
