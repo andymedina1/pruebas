@@ -10,17 +10,11 @@ body {
   background-color: #fbf8ee;
   width: 100vw;
   height: 100vh;
-  position: relative;
   z-index: -10;
 }
 
 main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 100%;
-  z-index: -5;
 }
 
 header {
@@ -37,9 +31,6 @@ header {
 
 nav {
   display: inline-block;
-  position: absolute;
-  top: 2.5em;
-  right: 3em;
 }
 
 ul {
@@ -63,54 +54,42 @@ nav ul a:hover {
   color: aliceblue;
 }
 
-
 .title-text {
   font-family: 'Cousine', monospace;
   text-align: center;
 }
 
-
 footer {
   background-color: #ffa42c;
-  height: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
   border-top: 3px solid #414143;
-}
-
-footer img {
-  width: 30px;
-  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  user-select: none;
 }
 
 footer p {
-  display: inline-block;
-  position: relative;
-  bottom: 10px;
+  margin-bottom: 0;
 }
 
 .footer-text {
-  display: inline-block;
-  height: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .footer-icons {
-  display: inline-block;
+  font-size: 2rem;
+  display: flex;
+  gap: 1rem;
 }
 
-.footer-end {
-  display: inline-block;
-}
 
 
 /* Estilos de página index */
 
 .index.title {
-  /* padding: 4em 3em 0; */
   margin-top: 2em;
 }
 
