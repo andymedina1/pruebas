@@ -8,9 +8,6 @@
 
 body {
   background-color: #fbf8ee;
-  width: 100vw;
-  height: 100vh;
-  z-index: -10;
 }
 
 main {
@@ -20,17 +17,19 @@ main {
 header {
   border-bottom: 3px solid gainsboro;
   font-family: 'Cousine', monospace;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-  display: inline-block;
   height: 100px;
-  width: 250px;
+  width: 200px;
   text-align: center;
 }
 
 nav {
-  display: inline-block;
+  padding-right: 1.5rem;
 }
 
 ul {
@@ -39,6 +38,10 @@ ul {
 
 li {
   display: inline;
+}
+
+nav ul {
+  margin-bottom: 0;
 }
 
 nav ul a {
