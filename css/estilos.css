@@ -389,6 +389,7 @@ label {
   position: relative;
   top: 10px;
   font-size: larger;
+  resize: none;
 }
 
 .name-input {
