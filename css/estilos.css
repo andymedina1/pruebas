@@ -44,19 +44,6 @@ nav ul {
   margin-bottom: 0;
 }
 
-/* nav ul a {
-  border: 3px solid gainsboro;
-  border-radius: 10px;
-  color: #414143;
-  text-decoration: none;
-  padding: 1em;
-} */
-
-/* nav ul a:hover {
-  background-color: #ffa42c;
-  color: aliceblue;
-} */
-
 .nav-button {
   border: 3px solid gainsboro;
   border-radius: 10px;
@@ -131,9 +118,14 @@ footer p {
 .index.text {
   margin: 0 auto;
   padding: 0 1em;
-  width: 700px;
   font-family: Tahoma, sans-serif;
   font-size: x-large;
+}
+
+@media screen and (min-width:700px) {
+  .index.text {
+    width: 700px;
+  }
 }
 
 .index.button {
