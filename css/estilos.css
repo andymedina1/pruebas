@@ -44,7 +44,20 @@ nav ul {
   margin-bottom: 0;
 }
 
-nav ul a {
+/* nav ul a {
+  border: 3px solid gainsboro;
+  border-radius: 10px;
+  color: #414143;
+  text-decoration: none;
+  padding: 1em;
+} */
+
+/* nav ul a:hover {
+  background-color: #ffa42c;
+  color: aliceblue;
+} */
+
+.nav-button {
   border: 3px solid gainsboro;
   border-radius: 10px;
   color: #414143;
@@ -52,7 +65,7 @@ nav ul a {
   padding: 1em;
 }
 
-nav ul a:hover {
+.nav-button:hover {
   background-color: #ffa42c;
   color: aliceblue;
 }

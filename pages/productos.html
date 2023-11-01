@@ -24,22 +24,39 @@
 
 <body>
   <header>
-    <!-- Logo -->
-    <div class="logo">
-      <a href="../index.html">
-        <img src="../img/Logo.png" alt="Logo">
-      </a>
-    </div>
-    
-    <!-- Menú Navegación -->
-    <nav>
-      <ul>
-        <li><a href="./productos.html">Productos</a></li>
-        <li><a href="./sucursales.html">Sucursales</a></li>
-        <li><a href="./nosotros.html">Sobre Nosotros</a></li>
-        <li><a href="./clientes.html">Clientes Satisfechos</a></li>
-        <li><a href="./contacto.html">Contacto</a></li>
-      </ul>
+    <!-- Menú Navegación Bootstrap -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid d-flex justify-content-between vw-100">
+        <!-- Logo -->
+        <div>
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/Logo.png" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <!-- Botones -->
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+            <li class="nav-item">
+              <a class="nav-link nav-button" href="./productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-button" href="./sucursales.html">Sucursales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-button" href="./nosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-button" href="./clientes.html">Clientes Satisfechos</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link nav-button" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
