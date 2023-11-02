@@ -202,18 +202,6 @@ main>section:last-of-type {
 
 /* Estilos de página Sucursales */
 
-.sucursales .title-text {
-  font-size: x-large;
-  padding: 2em 1em 1em;
-}
-
-.sucursales.maps {
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .sucursales h3 {
   font-family: 'Cousine', monospace;
   padding: 1em;
@@ -222,7 +210,6 @@ main>section:last-of-type {
 .sucursales p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 
 /* Estilos de página Clientes */
