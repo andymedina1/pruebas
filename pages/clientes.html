@@ -62,36 +62,44 @@
 
   <main>
 
-    <div class="clientes title">
-      <h1 class="title-text">Mirá las opiniones de algunos de nuestros clientes</h1>
+    <div class="container">
+      <div class="clientes title">
+        <h1 class="title-text">Mirá las opiniones de algunos de nuestros clientes</h1>
+      </div>
     </div>
 
 
-    <div class="comments-box">
-      <div>
-        <div class="comment number1">
-          <div class="com">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, vero?</div>
-          <div class="name">Juan Perez</div>
+    <!-- Grid con Bootstrap -->
+    <div class="container d-grid gap-5 mb-5">
+      <div class="row gap-5 justify-content-center">
+        <div class="card text-center mb-3 col-md-6 col-sm-12" style="width: 18rem;">
+          <div class="card-body d-flex flex-column justify-content-evenly">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, vero?</p>
+            <h5 class="card-title text-end fs-6">Juan Perez</h5>
+          </div>
         </div>
-        
-        <div class="comment number2">
-          <div class="com">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, modi? Qui amet dolorem consequatur sequi et accusamus, fugiat ullam iusto.</div>
-          <div class="name">Pablo Juarez</div>
-        </div>
-      </div>
       
-      <div>
-        <div class="comment number3">
-          <div class="com">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eaque voluptate, impedit itaque ratione necessitatibus.</div>
-          <div class="name">Mariana Merlo</div>
-        </div>
-        
-        <div class="comment number4">
-          <div class="com">Lorem ipsum dolor sit amet.</div>
-          <div class="name">Santiago Gomez</div>
+        <div class="card text-center mb-3 col-6" style="width: 18rem;">
+          <div class="card-body d-flex flex-column justify-content-evenly">
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, modi? Qui amet, fugiat ullam iusto.</p>
+            <h5 class="card-title text-end fs-6">Pablo Juarez</h5>
+          </div>
         </div>
       </div>
-
+      <div class="row gap-5 justify-content-center">
+        <div class="card text-center mb-3" style="width: 18rem;">
+          <div class="card-body d-flex flex-column justify-content-evenly">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eaque voluptate, necessitatibus.</p>
+            <h5 class="card-title text-end fs-6">Mariana Merlo</h5>
+          </div>
+        </div>
+        <div class="card text-center mb-3" style="width: 18rem;">
+          <div class="card-body d-flex flex-column justify-content-evenly">
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <h5 class="card-title text-end fs-6">Santiago Gomez</h5>
+          </div>
+        </div>
+      </div>
     </div>
 
   </main>
