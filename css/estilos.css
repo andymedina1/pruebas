@@ -8,14 +8,15 @@
 
 body {
   background-color: #fbf8ee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 header {
   border-bottom: 3px solid gainsboro;
   font-family: 'Cousine', monospace;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .logo {
@@ -74,6 +75,8 @@ footer {
   user-select: none;
 }
 
+
+
 footer p {
   margin-bottom: 0;
 }
@@ -89,7 +92,16 @@ footer p {
   gap: 1rem;
 }
 
+@media screen and (max-width:500px) {
+  footer {
+    flex-direction: column;
+    padding: 1rem;
+  }
 
+  .footer-icons {
+    gap: 2rem;
+  }
+}
 
 /* Estilos de página index */
 
