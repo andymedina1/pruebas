@@ -439,3 +439,8 @@ form>.name {
 .nosotros.title {
   text-align: center;
 }
+
+iframe {
+  width: 50vw;
+  height: 50vh;
+}
