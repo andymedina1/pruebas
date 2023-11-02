@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
-<body>
+<body class="vh-100 d-flex flex-column justify-content-between">
   <header>
     <!-- Menú Navegación Bootstrap -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -60,30 +60,34 @@
     </nav>
   </header>
 
-  <main>
+  <main class="mb-5">
     <div class="contacto title">
       <h1 class="title-text">¿Tenés alguna duda? Comunicate con nosotros!</h1>
     </div>
-    <form>
-      <div class="name">
-        <label for="nombre">Nombre y Apellido</label>
-        <input class="name-input" type="text" name="nombre" id="nombre">
-      </div>
-      <div class="email">
-        <label for="email">E-mail</label>
-        <input class="email-input" type="email" name="email" id="email">
-      </div>
-      <div class="birthday">
-        <label for="nacimiento">Fecha de Nacimiento</label>
-        <input class="birthday-input" type="date" name="nacimiento" id="nacimiento">
-      </div>
-      <div class="message">
-        <label for="mensaje">Mensaje</label>
-        <textarea name="mensaje" id="mensaje" cols="41" rows="5" placeholder="Introduzca su mensaje..."></textarea>
-        <button class="submit" type="submit">Enviar</button>
-        <button class="reset" type="reset">Reiniciar</button>
-      </div>
-    </form>
+    <div class="container d-flex justify-content-center">
+      <form>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre y Apellido</label>
+          <input type="text" class="form-control" id="nombre" name="nombre">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input class="form-control" type="email" name="email" id="email">
+        </div>
+        <div class="mb-3">
+          <label for="nacimiento">Fecha de Nacimiento</label>
+          <input class="form-control" type="date" name="nacimiento" id="nacimiento">
+        </div>
+        <div class="mb-3">
+          <label for="mensaje">Mensaje</label>
+          <textarea class="form-control" name="mensaje" id="mensaje" cols="41" rows="5" placeholder="Introduzca su mensaje..."></textarea>
+        </div>
+        <div class="container d-flex justify-content-evenly">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="reset" class="btn btn-primary">Reiniciar</button>
+        </div>
+      </form>
+    </div>
   </main>
 
   <footer>

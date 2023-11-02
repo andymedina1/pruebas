@@ -8,10 +8,6 @@
 
 body {
   background-color: #fbf8ee;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 header {
@@ -60,6 +56,11 @@ nav ul {
 .title-text {
   font-family: 'Cousine', monospace;
   text-align: center;
+}
+
+section {
+  text-align: center;
+  padding: 1em;
 }
 
 footer {
@@ -148,7 +149,7 @@ footer p {
   color: #414143
 }
 
-main>section:last-of-type {
+.index-section-2 {
   padding-top: 2em;
 }
 
@@ -394,12 +395,10 @@ form>.name {
 
 /* Estilos de página Nosotros */
 
-.nosotros.title {
-  text-align: center;
-  padding: 2em 3em;
+.nosotros.main {
+  height: 80vh;
 }
 
-section {
+.nosotros.title {
   text-align: center;
-  padding: 1em;
 }
