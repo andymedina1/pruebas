@@ -1,0 +1,93 @@
+/* Estilos Globales */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbf8ee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+iframe {
+  width: 49vw;
+  height: 50vh;
+}
+
+section {
+  text-align: center;
+  padding: 1em;
+}
+
+.title-text {
+  font-family: 'Cousine', monospace;
+  text-align: center;
+}
+
+
+
+header {
+  border-bottom: 3px solid gainsboro;
+  font-family: 'Cousine', monospace;
+
+  nav {
+    padding-right: 1.5rem;
+
+    ul {
+      margin-bottom: 0;
+    }
+
+    .nav-button {
+      border: 3px solid gainsboro;
+      border-radius: 10px;
+      color: #414143;
+      text-decoration: none;
+      padding: 1em;
+
+      &:hover {
+        background-color: #ffa42c;
+        color: aliceblue;
+      }
+    }
+  }
+}
+
+
+footer {
+  background-color: #ffa42c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-top: 3px solid #414143;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  user-select: none;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .footer-text {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-icons {
+    font-size: 2rem;
+    display: flex;
+    gap: 1rem;
+  }
+}

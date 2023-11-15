@@ -1,0 +1,459 @@
+/* Estilos Globales */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbf8ee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header {
+  border-bottom: 3px solid gainsboro;
+  font-family: 'Cousine', monospace;
+}
+
+.logo {
+  height: 100px;
+  width: 200px;
+  text-align: center;
+}
+
+nav {
+  padding-right: 1.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+nav ul {
+  margin-bottom: 0;
+}
+
+.nav-button {
+  border: 3px solid gainsboro;
+  border-radius: 10px;
+  color: #414143;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.nav-button:hover {
+  background-color: #ffa42c;
+  color: aliceblue;
+}
+
+.title-text {
+  font-family: 'Cousine', monospace;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+  padding: 1em;
+}
+
+footer {
+  background-color: #ffa42c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-top: 3px solid #414143;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  user-select: none;
+}
+
+
+
+footer p {
+  margin-bottom: 0;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons {
+  font-size: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+iframe {
+  width: 49vw;
+  height: 50vh;
+}
+
+
+/* Estilos de página index */
+
+.index.title {
+  margin-top: 2em;
+}
+
+.index.image {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  background-image: url(../img/Logo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.index.main-text {
+  display: inline-block;
+}
+
+.index.subtitle {
+  font-family: 'Cousine', monospace;
+  padding: 0.5em 1em;
+  color: #ffa42c;
+}
+
+.index.text {
+  margin: 0 auto;
+  padding: 0 1em;
+  font-family: Tahoma, sans-serif;
+  font-size: x-large;
+}
+
+.index.button {
+  padding: 1em;
+  border: solid 2px #414143;
+  border-radius: 10px;
+  font-size: medium;
+  background-color: #fbf8ee;
+  font-family: 'Cousine', monospace;
+  cursor: pointer;
+}
+
+.index.button:hover {
+  background-color: #ffa42c;
+  color: aliceblue;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.index.button a {
+  text-decoration: none;
+  color: #414143
+}
+
+.index-section-2 {
+  padding-top: 2em;
+}
+
+
+
+/* Estilos de página Productos */
+
+.productos.title {
+  padding: 2em 3em 0;
+}
+
+.productos.gallery {
+  padding: 2em 1em 0;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.gallery-card {
+  padding: 1em;
+  border: 1px solid #1cc6a5;
+  border-radius: 10px;
+  user-select: none;
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 50%;
+}
+
+.gallery-card:hover {
+  cursor: pointer;
+}
+
+.productos.change-page {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.productos li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.productos a {
+  text-decoration: none;
+  color: darkslategrey
+}
+
+
+
+/* Estilos de página Sucursales */
+
+.sucursales h3 {
+  font-family: 'Cousine', monospace;
+  padding: 1em;
+}
+
+.sucursales p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Estilos de página Clientes */
+
+.clientes.title {
+  text-align: center;
+  padding: 3em 3em;
+}
+
+.comments-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.comments-box>div {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.comment {
+  display: inline-block;
+  width: 30%;
+  height: 200px;
+  border: 3px solid #ffa42c;
+  border-radius: 10px;
+}
+
+.comment .com {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.comment .name {
+  text-align: end;
+  font-family: 'Cousine', monospace;
+  font-weight: bold;
+  padding: 1em;
+}
+
+.comment.number1 {
+  width: 403px;
+  height: 100px;
+}
+
+.comment.number2 {
+  width: 410px;
+  height: 150px;
+}
+
+.comment.number1 .com,
+.comment.number2 .com {
+  padding-top: 5px;
+}
+
+.comment.number3 {
+  width: 403px;
+  height: 120px;
+  padding-top: 5px;
+}
+
+.comment.number4 {
+  width: 335px;
+  height: 100px;
+}
+
+.number4>.com {
+  margin: 1em;
+}
+
+.card {
+  border: 3px solid #ffa42c;
+}
+
+.card-text {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-title {
+  font-family: 'Cousine', monospace;
+  font-weight: bold;
+}
+
+
+/* Estilos de página Contacto */
+
+.contacto.title {
+  padding: 3em 3em 2em;
+}
+
+main>form {
+  margin: 0 auto;
+}
+
+form {
+  width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+input {
+  font-size: x-large;
+}
+
+label {
+  padding-right: 1em;
+}
+
+.submit,
+.reset {
+  position: relative;
+  padding: 1em;
+  border: solid 2px #414143;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: bold;
+  background-color: #fbf8ee;
+  cursor: pointer;
+}
+
+.submit {
+  bottom: 80px;
+  left: 20px;
+}
+
+.reset {
+  bottom: 70px;
+  left: 570px;
+}
+
+.submit:hover,
+.reset:hover {
+  background-color: #ffa42c;
+  color: aliceblue;
+}
+
+.message>textarea {
+  position: relative;
+  top: 10px;
+  font-size: larger;
+  resize: none;
+}
+
+form>.name {
+  display: flex;
+  justify-content: start;
+  gap: 1.5em;
+}
+
+.email-input {
+  width: 342px;
+  position: relative;
+  left: 175px;
+}
+
+.contacto.button {
+  padding: 1em;
+  border: solid 2px #414143;
+  border-radius: 10px;
+  font-size: medium;
+  background-color: #fbf8ee;
+  font-family: 'Cousine', monospace;
+  cursor: pointer;
+}
+
+.contacto.button:hover {
+  background-color: #ffa42c;
+  color: aliceblue;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+/* Estilos de página Nosotros */
+
+.nosotros.main {
+  height: 80vh;
+}
+
+.nosotros.title {
+  text-align: center;
+}
+
+.nosotros.section > iframe {
+  width: 70vw;
+}
+
+@media screen and (max-width:500px) {
+  footer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .footer-icons {
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .index.text {
+    width: 700px;
+  }
+}
+
+/* Responsive vista tablet  */
+@media screen and (max-width:1200px) {
+  .productos.gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery-card {
+    height: 50vh;
+  }
+
+  .gallery-card img {
+    height: 70%;
+  }
+
+  .gallery-card p {
+    font-size: large;
+  }
+}
+
+/* Responsive vista móvil */
+
+@media screen and (max-width: 992px) {
+  iframe {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .productos.gallery {
+    grid-template-columns: 1fr;
+  }
+
+  iframe {
+    width: 80vw;
+  }
+}

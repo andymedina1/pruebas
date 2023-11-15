@@ -1,0 +1,21 @@
+main {
+  .clientes {
+    .title {
+      text-align: center;
+      padding: 3em 3em;
+    }
+  }
+
+  .card {
+    border: 3px solid #ffa42c;
+  }
+
+  .card-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .card-title {
+    font-family: 'Cousine', monospace;
+    font-weight: bold;
+  }
+}
