@@ -144,6 +144,9 @@ main .gallery .gallery-card {
   border: 1px solid #1cc6a5;
   border-radius: 10px;
   user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 main .gallery .gallery-card img {
   width: 100%;

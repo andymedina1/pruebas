@@ -15,6 +15,9 @@ main {
       border: 1px solid #1cc6a5;
       border-radius: 10px;
       user-select: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
 
       img {
         width: 100%;
