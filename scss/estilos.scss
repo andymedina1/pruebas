@@ -1,3 +1,7 @@
+$fuente-principal: 'Cousine', monospace;
+$fuente-secundaria: Verdana, Geneva, Tahoma, sans-serif;
+$color-primario: #ffa42c;
+
 @import "estilos-generales";
 @import "index";
 @import "productos";
@@ -6,4 +10,3 @@
 @import "contacto";
 @import "nosotros";
 @import "responsive";
-

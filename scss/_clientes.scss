@@ -5,7 +5,7 @@ main {
   }
 
   .card {
-    border: 3px solid #ffa42c;
+    border: 3px solid $color-primario;
   }
 
   .card-text {
@@ -13,7 +13,7 @@ main {
   }
 
   .card-title {
-    font-family: 'Cousine', monospace;
+    font-family: $fuente-principal;
     font-weight: bold;
   }
 }

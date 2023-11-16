@@ -6,7 +6,7 @@ main {
   .contacto-form {
     margin: 0 auto;
     width: 50vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $fuente-secundaria;
     font-size: x-large;
     text-align: start;
     display: flex;
@@ -33,11 +33,11 @@ main {
       border-radius: 10px;
       font-size: medium;
       background-color: #fbf8ee;
-      font-family: 'Cousine', monospace;
+      font-family: $fuente-principal;
       cursor: pointer;
 
       &:hover {
-        background-color: #ffa42c;
+        background-color: $color-primario;
         color: aliceblue;
         transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
       }

@@ -33,7 +33,7 @@ section {
 }
 
 .title-text {
-  font-family: 'Cousine', monospace;
+  font-family: $fuente-principal;
   text-align: center;
 }
 
@@ -41,7 +41,7 @@ section {
 
 header {
   border-bottom: 3px solid gainsboro;
-  font-family: 'Cousine', monospace;
+  font-family: $fuente-principal;
 
   nav {
     padding-right: 1.5rem;
@@ -58,7 +58,7 @@ header {
       padding: 1em;
 
       &:hover {
-        background-color: #ffa42c;
+        background-color: $color-primario;
         color: aliceblue;
       }
     }
@@ -67,8 +67,8 @@ header {
 
 
 footer {
-  background-color: #ffa42c;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: $color-primario;
+  font-family: $fuente-secundaria;
   border-top: 3px solid #414143;
   display: flex;
   justify-content: center;

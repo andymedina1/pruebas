@@ -1,10 +1,10 @@
 .sucursales {
   h3 {
-    font-family: 'Cousine', monospace;
+    font-family: $fuente-principal;
     padding: 1em;
   }
 
   p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $fuente-secundaria;
   }
 }

@@ -18,9 +18,9 @@ main {
       display: inline-block;
 
       .subtitle {
-        font-family: 'Cousine', monospace;
+        font-family: $fuente-principal;
         padding: 0.5em 1em;
-        color: #ffa42c;
+        color: $color-primario;
       }
 
       .text {
@@ -37,11 +37,11 @@ main {
       border-radius: 10px;
       font-size: medium;
       background-color: #fbf8ee;
-      font-family: 'Cousine', monospace;
+      font-family: $fuente-principal;
       cursor: pointer;
 
       &:hover {
-        background-color: #ffa42c;
+        background-color: $color-primario;
         color: aliceblue;
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
       }
