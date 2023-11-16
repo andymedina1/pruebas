@@ -33,6 +33,12 @@
   .gallery-card p {
     font-size: large;
   }
+
+  main {
+    .contacto-form {
+      width: 80vw;
+    }
+  }
 }
 
 /* Responsive vista móvil */
@@ -50,5 +56,13 @@
 
   iframe {
     width: 80vw;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  main {
+    .index-section-2 {
+      padding: 6em 0 4em;
+    }
   }
 }

@@ -1,13 +1,10 @@
-.nosotros {
-  main {
-    height: 80vh;
+main {
+  .nosotros.title {
+    text-align: center;
+    margin-bottom: 2em;
+  }
 
-    .title {
-      text-align: center;
-    }
-
-    .section > iframe {
-      width: 70vw;
-    }
+  .nosotros.section>iframe {
+    width: 70vw;
   }
 }

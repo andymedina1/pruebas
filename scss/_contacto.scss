@@ -1,13 +1,11 @@
 main {
-  .contacto {
-    .title {
-      padding: 3em 3em 2em;
-    }
+  .contacto.title {
+    padding: 3em 3em 2em;
   }
 
   .contacto-form {
     margin: 0 auto;
-    width: 50%;
+    width: 50vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
     text-align: start;
@@ -41,7 +39,7 @@ main {
       &:hover {
         background-color: #ffa42c;
         color: aliceblue;
-        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
       }
     }
   }

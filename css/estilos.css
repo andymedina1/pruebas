@@ -82,7 +82,7 @@ footer .footer-icons {
   gap: 1rem;
 }
 
-main .title {
+main .index.title {
   margin-top: 2em;
 }
 main section .image {
@@ -129,8 +129,8 @@ main .index-section-2 {
   padding-top: 2em;
 }
 
-main .title {
-  padding: 2em 3em 0;
+main .productos.title {
+  margin-top: 2em;
 }
 main .gallery {
   padding: 2em 1em 0;
@@ -172,7 +172,7 @@ main .change-page li a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main .clientes .title {
+main .clientes.title {
   text-align: center;
   padding: 3em 3em;
 }
@@ -187,12 +187,12 @@ main .card-title {
   font-weight: bold;
 }
 
-main .contacto .title {
+main .contacto.title {
   padding: 3em 3em 2em;
 }
 main .contacto-form {
   margin: 0 auto;
-  width: 50%;
+  width: 50vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: x-large;
   text-align: start;
@@ -226,13 +226,11 @@ main .contacto-form .button:hover {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-.nosotros main {
-  height: 80vh;
-}
-.nosotros main .title {
+main .nosotros.title {
   text-align: center;
+  margin-bottom: 2em;
 }
-.nosotros main .section > iframe {
+main .nosotros.section > iframe {
   width: 70vw;
 }
 
@@ -264,6 +262,9 @@ main .contacto-form .button:hover {
   .gallery-card p {
     font-size: large;
   }
+  main .contacto-form {
+    width: 80vw;
+  }
 }
 /* Responsive vista móvil */
 @media screen and (max-width: 992px) {
@@ -277,6 +278,11 @@ main .contacto-form .button:hover {
   }
   iframe {
     width: 80vw;
+  }
+}
+@media screen and (min-width: 1040px) {
+  main .index-section-2 {
+    padding: 6em 0 4em;
   }
 }
 
