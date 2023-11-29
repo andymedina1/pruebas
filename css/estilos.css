@@ -140,6 +140,22 @@ main .gallery {
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
+main .gallery .tarjeta-producto {
+  user-select: none;
+  border: 1px solid #1cc6a5;
+  padding: 1em;
+  background-color: transparent;
+  cursor: pointer;
+  max-width: 450px;
+}
+main .gallery .tarjeta-producto img {
+  height: 50%;
+}
+main .gallery .tarjeta-producto .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 main .gallery .gallery-card {
   padding: 1em;
   border: 1px solid #1cc6a5;
@@ -180,7 +196,7 @@ main .clientes.title {
   text-align: center;
   padding: 3em 3em;
 }
-main .card {
+main .tarjeta {
   border: 3px solid #ffa42c;
 }
 main .card-text {
@@ -256,6 +272,7 @@ main .nosotros.section > iframe {
 @media screen and (max-width: 1200px) {
   .productos.gallery {
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
   }
   .gallery-card {
     height: 50vh;
@@ -276,12 +293,24 @@ main .nosotros.section > iframe {
     width: 70vw;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .productos.gallery {
     grid-template-columns: 1fr;
   }
   iframe {
     width: 80vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .tarjeta-producto {
+    display: flex;
+    align-items: center;
+  }
+  .tarjeta-producto img {
+    max-width: 90%;
+  }
+  .tarjeta-producto .card-body {
+    max-width: 90%;
   }
 }
 @media screen and (min-width: 1040px) {
