@@ -253,9 +253,6 @@ main .marcas.title {
 main .container-exterior {
   width: 80%;
 }
-main .container-exterior .marcas.section {
-  height: 500px;
-}
 main .container-exterior .marcas.section .container-carrusel {
   display: flex;
 }
@@ -363,6 +360,22 @@ main .container-exterior .marcas.section .container-carrusel .slide .grilla .car
 @media screen and (min-width: 1040px) {
   main .index-section-2 {
     padding: 6em 0 4em;
+  }
+}
+@media screen and (max-width: 1000px) {
+  main .container-exterior .marcas.section .container-carrusel .slide .grilla {
+    grid-template-areas: "card1 card3" "card4 card6";
+  }
+  main .container-exterior .marcas.section .container-carrusel .slide .grilla .card2, main .container-exterior .marcas.section .container-carrusel .slide .grilla .card5 {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  main .container-exterior .marcas.section .container-carrusel .slide .grilla {
+    grid-template-areas: "card1" "card3" "card6";
+  }
+  main .container-exterior .marcas.section .container-carrusel .slide .grilla .card2, main .container-exterior .marcas.section .container-carrusel .slide .grilla .card4, main .container-exterior .marcas.section .container-carrusel .slide .grilla .card5 {
+    display: none;
   }
 }
 

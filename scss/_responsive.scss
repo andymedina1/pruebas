@@ -82,3 +82,47 @@
     }
   }
 }
+
+
+@media screen and (max-width:1000px) {
+  main {
+    .container-exterior {
+      .marcas.section {
+        .container-carrusel {
+          .slide {
+            .grilla {
+              grid-template-areas: "card1 card3"
+                "card4 card6";
+              
+              .card2, .card5 {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:700px) {
+  main {
+    .container-exterior {
+      .marcas.section {
+        .container-carrusel {
+          .slide {
+            .grilla {
+              grid-template-areas: "card1"
+                "card3"
+                "card6";
+              
+              .card2, .card4, .card5 {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
