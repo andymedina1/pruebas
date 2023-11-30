@@ -246,34 +246,34 @@ main .contacto-form .button:hover {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-main .nosotros.title {
+main .marcas.title {
   text-align: center;
   margin-bottom: 2em;
 }
 main .container-exterior {
   width: 80%;
 }
-main .container-exterior .nosotros.section {
+main .container-exterior .marcas.section {
   height: 500px;
 }
-main .container-exterior .nosotros.section .card {
+main .container-exterior .marcas.section .card {
   justify-content: center;
   align-items: center;
 }
-main .container-exterior .nosotros.section .card-img-top {
+main .container-exterior .marcas.section .card-img-top {
   width: 90%;
   height: 90%;
 }
-main .container-exterior .nosotros.section .container-carrusel {
+main .container-exterior .marcas.section .container-carrusel {
   display: flex;
 }
-main .container-exterior .nosotros.section .container-carrusel .slide {
+main .container-exterior .marcas.section .container-carrusel .slide {
   pointer-events: none;
 }
-main .container-exterior .nosotros.section .container-carrusel .carousel-control-next, main .container-exterior .nosotros.section .container-carrusel .carousel-control-prev {
+main .container-exterior .marcas.section .container-carrusel .carousel-control-next, main .container-exterior .marcas.section .container-carrusel .carousel-control-prev {
   position: static;
 }
-main .container-exterior .nosotros.section button .control {
+main .container-exterior .marcas.section button .control {
   background-color: black;
   height: 15%;
 }
