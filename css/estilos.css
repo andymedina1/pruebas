@@ -270,11 +270,33 @@ main .container-exterior .marcas.section .container-carrusel .carousel-control-p
 main .container-exterior .marcas.section .container-carrusel .slide {
   pointer-events: none;
 }
-main .container-exterior .marcas.section .container-carrusel .slide .card {
+main .container-exterior .marcas.section .container-carrusel .slide .grilla {
+  display: grid;
+  grid-template-areas: "card1 card2 card3" "card4 card5 card6";
+}
+main .container-exterior .marcas.section .container-carrusel .slide .grilla .card1 {
+  grid-area: card1;
+}
+main .container-exterior .marcas.section .container-carrusel .slide .grilla .card2 {
+  grid-area: card2;
+}
+main .container-exterior .marcas.section .container-carrusel .slide .grilla .card3 {
+  grid-area: card3;
+}
+main .container-exterior .marcas.section .container-carrusel .slide .grilla .card4 {
+  grid-area: card4;
+}
+main .container-exterior .marcas.section .container-carrusel .slide .grilla .card5 {
+  grid-area: card5;
+}
+main .container-exterior .marcas.section .container-carrusel .slide .grilla .card6 {
+  grid-area: card6;
+}
+main .container-exterior .marcas.section .container-carrusel .slide .grilla .card {
   justify-content: center;
   align-items: center;
 }
-main .container-exterior .marcas.section .container-carrusel .slide .card .card-img-top {
+main .container-exterior .marcas.section .container-carrusel .slide .grilla .card .card-img-top {
   width: 90%;
   height: 90%;
 }
