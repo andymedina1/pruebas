@@ -6,38 +6,39 @@ main {
 
   .container-exterior {
     width: 80%;
+
     .marcas.section {
       height: 500px;
-  
-      .card {
-        justify-content: center; 
-        align-items: center;
-      }
-  
-      .card-img-top {
-        width: 90%;
-        height: 90%;
-      }
-      
+
       .container-carrusel {
         display: flex;
 
-        .slide {
-          pointer-events: none;
+        button {
+          .control {
+            background-color: black;
+            height: 15%;
+          }
         }
 
-        .carousel-control-next, .carousel-control-prev {
+        .carousel-control-next,
+        .carousel-control-prev {
           position: static;
         }
-      }
-  
-      button {
-        .control {
-          background-color: black; 
-          height: 15%;
+
+        .slide {
+          pointer-events: none;
+
+          .card {
+            justify-content: center;
+            align-items: center;
+
+            .card-img-top {
+              width: 90%;
+              height: 90%;
+            }
+          }
         }
       }
     }
   }
-  
 }

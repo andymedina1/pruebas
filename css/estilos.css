@@ -256,26 +256,27 @@ main .container-exterior {
 main .container-exterior .marcas.section {
   height: 500px;
 }
-main .container-exterior .marcas.section .card {
-  justify-content: center;
-  align-items: center;
-}
-main .container-exterior .marcas.section .card-img-top {
-  width: 90%;
-  height: 90%;
-}
 main .container-exterior .marcas.section .container-carrusel {
   display: flex;
+}
+main .container-exterior .marcas.section .container-carrusel button .control {
+  background-color: black;
+  height: 15%;
+}
+main .container-exterior .marcas.section .container-carrusel .carousel-control-next,
+main .container-exterior .marcas.section .container-carrusel .carousel-control-prev {
+  position: static;
 }
 main .container-exterior .marcas.section .container-carrusel .slide {
   pointer-events: none;
 }
-main .container-exterior .marcas.section .container-carrusel .carousel-control-next, main .container-exterior .marcas.section .container-carrusel .carousel-control-prev {
-  position: static;
+main .container-exterior .marcas.section .container-carrusel .slide .card {
+  justify-content: center;
+  align-items: center;
 }
-main .container-exterior .marcas.section button .control {
-  background-color: black;
-  height: 15%;
+main .container-exterior .marcas.section .container-carrusel .slide .card .card-img-top {
+  width: 90%;
+  height: 90%;
 }
 
 @media screen and (max-width: 500px) {
