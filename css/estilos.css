@@ -250,8 +250,32 @@ main .nosotros.title {
   text-align: center;
   margin-bottom: 2em;
 }
-main .nosotros.section > iframe {
-  width: 70vw;
+main .container-exterior {
+  width: 80%;
+}
+main .container-exterior .nosotros.section {
+  height: 500px;
+}
+main .container-exterior .nosotros.section .card {
+  justify-content: center;
+  align-items: center;
+}
+main .container-exterior .nosotros.section .card-img-top {
+  width: 90%;
+  height: 90%;
+}
+main .container-exterior .nosotros.section .container-carrusel {
+  display: flex;
+}
+main .container-exterior .nosotros.section .container-carrusel .slide {
+  pointer-events: none;
+}
+main .container-exterior .nosotros.section .container-carrusel .carousel-control-next, main .container-exterior .nosotros.section .container-carrusel .carousel-control-prev {
+  position: static;
+}
+main .container-exterior .nosotros.section button .control {
+  background-color: black;
+  height: 15%;
 }
 
 @media screen and (max-width: 500px) {

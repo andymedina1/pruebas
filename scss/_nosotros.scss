@@ -4,7 +4,40 @@ main {
     margin-bottom: 2em;
   }
 
-  .nosotros.section>iframe {
-    width: 70vw;
+  .container-exterior {
+    width: 80%;
+    .nosotros.section {
+      height: 500px;
+  
+      .card {
+        justify-content: center; 
+        align-items: center;
+      }
+  
+      .card-img-top {
+        width: 90%;
+        height: 90%;
+      }
+      
+      .container-carrusel {
+        display: flex;
+
+        .slide {
+          pointer-events: none;
+        }
+
+        .carousel-control-next, .carousel-control-prev {
+          position: static;
+        }
+      }
+  
+      button {
+        .control {
+          background-color: black; 
+          height: 15%;
+        }
+      }
+    }
   }
+  
 }
